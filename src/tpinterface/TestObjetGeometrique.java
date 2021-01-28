@@ -25,8 +25,9 @@ public class TestObjetGeometrique {
 		ObjetGeometrique[] tabObjGeo = {c1, r1};
 		
 		for (int i = 0; i < tabObjGeo.length; i++) {
-		
-			System.out.println(tabObjGeo[i].perimetre());
+			System.out.println("Objet de type : " + tabObjGeo[i].getClass().getSimpleName());
+			System.out.println("Périmetre : " + tabObjGeo[i].perimetre());
+			System.out.println("Surface : " + tabObjGeo[i].surface() + "\n");
 		}
 
 	}
