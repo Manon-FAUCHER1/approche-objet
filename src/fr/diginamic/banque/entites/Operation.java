@@ -18,6 +18,7 @@ public abstract class Operation {
 		this.montantOperation = montantOperation;
 	}
 	
+	
 	public abstract String afficherType ();
 
 	public String getDateOperation() {
