@@ -9,10 +9,10 @@ package entites;
  */
 public class AdressePostale {
 	
-	public int numeroRue;
-	public String libelleRue;
-	public String codePostal;
-	public String ville;
+	int numeroRue;
+	String libelleRue;
+	String codePostal;
+	String ville;
 	
 	public AdressePostale(int numeroRue, String libelleRue, String codePostal, String ville) {
 		super();

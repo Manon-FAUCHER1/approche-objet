@@ -9,9 +9,9 @@ import entites.AdressePostale;
  */
 public class Personne {
 
-	public String nom;
-	public String prenom;
-	public AdressePostale adressePostale;
+	String nom;
+	String prenom;
+	AdressePostale adressePostale;
 	
 	public Personne(String nom, String prenom) {
 		super();

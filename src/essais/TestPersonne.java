@@ -23,7 +23,7 @@ public class TestPersonne {
 		Personne p1 = new Personne("FAUCHER", "Manon");
 		Personne p2 = new Personne("Mike", "PROTER", "12 Routes de l'hermitain, 79260 Romans");
 		
-		p1.name(p1.nom, p1.prenom);
+		p1.name(p1.getNom(), p1.getPrenom());
 		
 		p1.setAdressePostale(a1);
 		p1.getAdressePostale();
