@@ -28,13 +28,6 @@ public class TestPersonne {
 		p1.setAdressePostale(a1);
 		p1.getAdressePostale();
 		System.out.println(p1);
-
-		
-		
-		
-		
-		
-		
 		
 	}
 
