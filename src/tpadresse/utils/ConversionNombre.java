@@ -1,4 +1,4 @@
-package utils;
+package tpadresse.utils;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class ConversionNombre {
 		
 		System.out.println("Veuillez saisir un perier chiffre :");
 		String a = sc.next();
-		System.out.println("Veuillez saisir un deuxième chiffre :");
+		System.out.println("Veuillez saisir un deuxiï¿½me chiffre :");
 		String b = sc.next();
 		
 		int aInt = Integer.parseInt(a);

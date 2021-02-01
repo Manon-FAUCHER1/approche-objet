@@ -1,9 +1,9 @@
 /**
  * 
  */
-package essais;
+package tpadresse.essais;
 
-import entites.AdressePostale;
+import tpadresse.entites.AdressePostale;
 
 /**
  * @author manon

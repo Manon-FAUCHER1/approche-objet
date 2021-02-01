@@ -1,7 +1,5 @@
 
-package entites;
-
-import entites.AdressePostale;
+package tpadresse.entites;
 
 /**
  * @author manon FAUCHER

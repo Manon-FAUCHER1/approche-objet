@@ -1,7 +1,7 @@
 /**
  * 
  */
-package entites;
+package tpadresse.entites;
 
 /**
  * @author manon
