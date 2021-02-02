@@ -15,7 +15,7 @@ public class TestTheatre {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Theatre theatre = new Theatre("Théâtre de Päris", 350, 341, 6820);
+		Theatre theatre = new Theatre("ThÃ©Ã¢tre de Paris", 350, 341, 6820);
 		
 		theatre.inscrire(4, 20);
 		theatre.inscrire(2, 20);
@@ -23,7 +23,7 @@ public class TestTheatre {
 		theatre.inscrire(3, 20);
 		
 		System.out.println("Il y a " + theatre.getNbInscrits() + " personnes incrites sur " + theatre.getCapaciteMax() + " places.\n"
-				+ "La recette du théâtre s'élève a " + theatre.getRecette() + "€");
+				+ "La recette du thï¿½ï¿½tre s'ï¿½lï¿½ve a " + theatre.getRecette() + "ï¿½");
 	}
 
 }

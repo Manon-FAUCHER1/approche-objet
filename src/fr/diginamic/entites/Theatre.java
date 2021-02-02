@@ -52,9 +52,9 @@ public class Theatre {
 		if (capaciteMax > nbInscrits && (capaciteMax - nbInscrits) > nbClient) {
 			nbInscrits += nbClient;
 			recette += (prixPlace * nbClient);
-			System.out.println("Vous êtes bien inscrit !");
+			System.out.println("Vous Ãªtes bien inscrit !");
 		} else {
-			System.out.println("Désolé mais nous n'avont pas assez de places pour "+ nbClient +" personnes.\n"
+			System.out.println("DÃ©solÃ© mais nous n'avont pas assez de places pour "+ nbClient +" personnes.\n"
 					+ "Il nous reste que " + (capaciteMax - nbInscrits) + " places.");
 		}
 

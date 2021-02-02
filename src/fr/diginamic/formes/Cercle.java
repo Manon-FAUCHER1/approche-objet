@@ -18,16 +18,12 @@ public class Cercle extends Forme{
 
 	@Override
 	public double calculerSurface() {
-		return rayon;
-		// TODO Auto-generated method stub
-		
+		return (rayon * rayon) * Math.PI;
 	}
 
 	@Override
 	public double calculerPerimetre() {
-		return rayon;
-		// TODO Auto-generated method stub
-		
+		return 2 * Math.PI * rayon;
 	}
 
 }

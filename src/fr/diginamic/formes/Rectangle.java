@@ -28,15 +28,13 @@ public class Rectangle extends Forme{
 
 	@Override
 	public double calculerSurface() {
-		return largeur;
-		// TODO Auto-generated method stub
+		return longueur * largeur;
 		
 	}
 
 	@Override
 	public double calculerPerimetre() {
-		return largeur;
-		// TODO Auto-generated method stub
+		return (longueur + largeur)*2;
 		
 	}
 
