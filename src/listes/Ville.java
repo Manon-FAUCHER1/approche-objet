@@ -1,9 +1,6 @@
 package listes;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
-public class Ville {
+public class Ville implements Comparable<Ville>{
 	private String nom;
 	private long nbHabitant;
 	
@@ -32,6 +29,25 @@ public class Ville {
 	@Override
 	public String toString() {
 		return nom + " : " + nbHabitant + " Habs";
+	}
+	
+	// Tri sur le nom par ordre alphabétique 
+//	@Override
+//	public int compareTo(Ville autre) {	
+//		return this.nom.compareTo(autre.getNom());
+//	}	
+	
+	// tri sur le nombre d'habitants
+	@Override
+	public int compareTo(Ville autre) {	
+		
+		if (this.nbHabitant > autre.getNbHabitant()){
+			return 1;
+			}
+			if (this.nbHabitant < autre.getNbHabitant()){
+			return -1;
+			}
+			return 0;
 	}	
 	
 	
