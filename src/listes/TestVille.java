@@ -48,6 +48,7 @@ public class TestVille {
 			}
 		}
 		
+		
 		villes.remove(villeRemove);
 		System.out.println("\nLa ville la moin peuplée est " + villeRemove + ", elle a été supprimer !\n");
 		for (Ville ville: villes) {
