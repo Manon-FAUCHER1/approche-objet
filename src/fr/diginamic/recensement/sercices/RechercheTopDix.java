@@ -49,12 +49,11 @@ public class RechercheTopDix extends MenuService{
 			for (Lieux lieux : choixAdditionnel) {
 				if (choix.equals(lieux.getCode())) {
 					choixListe = lieux.getListeVille();
-					System.out.println("Tp 10 des villes pour le/la " + typeRecherche + " " + lieux.getNom() + " :");
+					System.out.println("Top 10 des villes pour le/la " + typeRecherche + " " + lieux.getNom() + " :");
 				}
 			}
 			
 		}
-		
 		
 		this.displayTopDix(choixListe);
 		 

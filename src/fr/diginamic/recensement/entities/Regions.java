@@ -15,7 +15,6 @@ public class Regions extends Lieux {
 		this.pays.addRegion(this);
 	}
 	
-	
 	public void addVille(Ville ville) {
 		this.population += ville.population;
 		this.listeVille.add(ville);
