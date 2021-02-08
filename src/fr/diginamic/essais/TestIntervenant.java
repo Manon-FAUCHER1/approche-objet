@@ -1,23 +1,18 @@
-/**
- * 
- */
 package fr.diginamic.essais;
 
-import fr.diginamic.entites.Salarie;
+import fr.diginamic.salaire.Pigiste;
+import fr.diginamic.salaire.Salarie;
 
-/**
- * @author manon
- *
- */
 public class TestIntervenant {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		Salarie s1 = new Salarie("Jean", "POTORE", 30000);
-		s1.getSalaire();
+
+		Salarie salarie = new Salarie("FAUCHER", "Manon", 3500);
+		Pigiste pigiste = new Pigiste("FAUCHER", "Frederic", 21, 430);
+
+		salarie.afficherDonnes();
+		System.out.println();
+		pigiste.afficherDonnes();
 
 	}
-
 }

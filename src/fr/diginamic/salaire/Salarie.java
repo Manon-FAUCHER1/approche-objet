@@ -1,24 +1,29 @@
 package fr.diginamic.salaire;
 
 public class Salarie extends Intervenant {
-	private double salaireMens;
 
-	public Salarie(String nom, String prenom, double salaireMens) {
+	private double salaire;
+
+	public Salarie(String nom, String prenom, double salaire) {
 		super(nom, prenom);
-		this.salaireMens = salaireMens;
-	}
-
-	public double getSalaireMens() {
-		return salaireMens;
-	}
-
-	public void setSalaireMens(double salaireMens) {
-		this.salaireMens = salaireMens;
+		this.salaire = salaire;
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public double getSalaire() {
-		return this.getSalaire();
+		// TODO Auto-generated method stub
+		return salaire;
 	}
 
+	@Override
+	public void afficherDonnes() {
+		System.out.println(super.getNom() + " " + super.getPrenom() + " est un " + afficherStatut() + "\nSalaire :"
+				+ getSalaire() + "$");
+
+	}
+
+	public String afficherStatut() {
+		return "Salarie";
+	}
 }
