@@ -50,6 +50,22 @@ public class Ville implements Comparable<Ville>{
 			return 0;
 	}	
 	
+	public boolean aqual(Object obj) {
+		
+		// Vérifier que obj est bien une instance de Ville
+		if (! (obj instanceof Ville)) {
+			return false;
+		}
+		
+		// A ce niveau on est sur que obj est bien une instance de Ville
+		// Je peut transformer obj qui est de type Object en Ville
+		Ville autre = (Ville)obj;
+		
+		// test 
+		boolean egalite = this.nom.equals(autre.getNom()) && this.nbHabitant == autre.getNbHabitant();
+		return egalite;
+	}
+	
 	
 	
 	
